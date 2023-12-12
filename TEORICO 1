@@ -1,0 +1,3 @@
+Este programa cria uma classe EnergyMonitor simples que rastreia a energia total adicionada, o uso atual de energia e o tempo decorrido desde a última redefinição do uso de energia.
+Você pode então criar uma instância dessa classe e usá-la para adicionar energia, atualizar o tempo de uso e redefinir o uso de energia conforme necessário. 
+O programa também demonstra como usar a classe EnergyMonitor adicionando energia, atualizando o tempo de uso e redefinindo o uso de energia.
