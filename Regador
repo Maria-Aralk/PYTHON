@@ -1,0 +1,13 @@
+def regar_planta_while(numero):
+    i = 0
+    while i <= numero:
+        planta = "TOMATE" if i % 2 == 0 else "BATATA"
+        status = "sendo regada" if i % 2 == 0 else "já regada"
+        print(f"A planta {planta} na posição {i} está {status}.")
+        i += 1
+
+# Solicita que o usuário escolha um número
+numero_escolhido = int(input("Escolha um número: "))
+
+# Chama a função para exibir as mensagens
+regar_planta_while(numero_escolhido)
